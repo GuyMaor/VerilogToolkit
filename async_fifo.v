@@ -64,7 +64,7 @@ endmodule
 module read_ptr_module(	ren,
 						wptr_enc,
 						rptr_enc,
-                        is_empty,
+						is_empty,
 						raddr,
 						rst,
 						clk);
@@ -129,7 +129,7 @@ module write_ptr_module(wen,
 						wptr_enc,
 						rptr_enc,
 						is_full,
-                        waddr,
+						waddr,
 						rst,
 						clk);
 						
